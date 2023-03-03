@@ -1,0 +1,33 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  width: 250px;
+  height: 120px;
+}
+.appointment-item-heading {
+  color: #171f46;
+  font-size: 18px;
+}
+.appointment-item-date {
+  color: #b5b7c4;
+}
+.appointment-item-button {
+  align-self: flex-start;
+  background-color: transparent;
+  border: 0px;
+}
+.appointment-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
